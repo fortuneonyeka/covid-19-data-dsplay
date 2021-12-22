@@ -33,7 +33,7 @@ body {
 }
 
 .stats {
-  background: rgba(207, 66, 120, 0.9);
+  background: rgba(224, 100, 148, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

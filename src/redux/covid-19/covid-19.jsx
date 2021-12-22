@@ -20,14 +20,14 @@ export const setTotal = (total) => ({
 const covidAFReducer = (state = initialAFData, action) => {
   switch (action.type) {
     case ADD_COUNTRY:
-      return {...state, countries: [...state.countries, action.payload],}
+      return { ...state, countries: [...state.countries, action.payload] };
     case SET_TOTAL:
-      return {...state, totalConfirmed: action.payload}
-  
+      return { ...state, totalConfirmed: action.payload };
     default:
       return state;
   }
-}
+  
+};
 
 export const countries = (state) => state.countries
 export const totalConfirmed = (state) => state.totalConfirmed
