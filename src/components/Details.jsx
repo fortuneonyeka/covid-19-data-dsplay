@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { countries } from "../redux/covid-19/covid-19";
 import { Row, Col } from 'react-bootstrap';
-import Africa from '../assets/images/world-image.svg';
+import Africa from '../assets/images/sample-map.png';
 
 
 const Details = () => {
@@ -57,11 +57,11 @@ const Details = () => {
         </Col>
       </Row>
       <Row className='m-0 mt-4 bg-pink-dark'>
-        <h6 className='text-white fw-bold p-2 m-0'>
+        <h6 className='text-black fw-bold p-2 m-0'>
           {`${country.name.toUpperCase()} CASES BREAKDOWN`}
         </h6>
         <div>
-          <h2 className='stats-title'>Country Breakdown 2020-10-10</h2>
+          <h2 className='stats-title'>Country Breakdown 2020-11-22</h2>
           <ul key={country.id} className='flex flex-dir stat-container'>
             <li className='navLink w-100 stats'>
               Today&apos;s confirmed:
