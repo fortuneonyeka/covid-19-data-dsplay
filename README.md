@@ -59,6 +59,15 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+- Original project design idea by [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio) 🙌
+- Hat tip to anyone whose code was used 🔰
+- Inspiration 💘
+- Microverse program ⚡
+- Our standup team 🏹
+- Family's support 🙌
+
+
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
