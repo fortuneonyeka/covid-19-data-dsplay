@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
-// import 'font-awesome/css/font-awesome.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import { Col, InputGroup, Row } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { LinkContainer } from 'react-router-bootstrap';
@@ -14,15 +14,13 @@ const Filter = (props) => {
     props.setFilter(e.target.value);
   };
   return (
-    <InputGroup className='mb-3'>
-      <span className='input-group-prepend'>
-        <i className='input-group-text fa fa-search' />
-      </span>
+    <InputGroup className='mb-4'>
+      <span className='input-group-prepend'><i className='input-group-text fas fa-search'></i></span>
       <input
         type='text'
         onChange={filterValues}
         className='form-control no-shadow'
-        placeholder='Search Specific Country'
+        placeholder='Search By Country Name'
       />
     </InputGroup>
   );
@@ -43,9 +41,9 @@ const HomePage = () => {
           sm={6}
           md={3}
           className={`
-          d-flex flex-column justify-content-between
-          align-items-end
-          ${[1, 0, 0, 1][index % 4] ? 'bg-pink-dark' : 'bg-pink-light'}
+          d-flex flex-col justify-between
+          items-end
+          ${[1, 0, 0, 1][index % 4] ? 'bg-pink-600' : 'bg-pink-450'}
         `}
         >
           <FontAwesomeIcon
@@ -53,10 +51,10 @@ const HomePage = () => {
             className='text-white mt-1 mb-4 h5'
           />
           <span
-            className='d-flex flex-column align-items-end text-white mt-4'
+            className='d-flex flex-col items-end text-white mt-4'
             style={{ cursor: 'pointer' }}
           >
-            <h5 className='d-inline-block m-0 text-end fw-bold'>
+            <h5 className='inline-block m-0 text-end fw-bold'>
               {country.name.toUpperCase()}
             </h5>
             <p>{Number(country.today_confirmed).toLocaleString()} Cases</p>
