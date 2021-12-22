@@ -14,7 +14,9 @@ one page for the item details; the detail page of country case break down.
 ![Screenshot](src/assets/images/full-page.png)
 
 
-![Loom Video]https://www.loom.com/share/711ff3c9b8364f81abb8e29975b837f2
+![Loom Video]:https://www.loom.com/share/711ff3c9b8364f81abb8e29975b837f2
+
+![live link]:https://condescending-hawking-9179d0.netlify.app/
 
 
 
