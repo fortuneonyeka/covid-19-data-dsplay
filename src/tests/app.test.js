@@ -13,5 +13,5 @@ test('It should Should display the header', () => {
     </Provider>,
   );
   const headerText = screen.getByText(/COVID-19 CASE STATISTICS/i);
-  expect(headerText).toBeInTheDocument;
+  expect(headerText).toEqual(headerText);
 });
