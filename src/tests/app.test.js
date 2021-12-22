@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -10,7 +11,7 @@ test('It should Should display the header', () => {
       <Router>
         <App />
       </Router>
-    </Provider>
+    </Provider>,
   );
   const headerText = screen.getByText(/COVID-19 CASE STATISTICS/i);
   expect(headerText).toBeInTheDocument;
