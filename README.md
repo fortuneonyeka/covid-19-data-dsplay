@@ -14,6 +14,9 @@ one page for the item details; the detail page of country case break down.
 ![Screenshot](src/assets/images/full-page.png)
 
 
+![Loom Video]https://www.loom.com/share/711ff3c9b8364f81abb8e29975b837f2
+
+
 
 
 ## Built With
@@ -33,14 +36,12 @@ git@github.com:fortuneonyeka/covid-19-data-dsplay.git
 
 2. Now that you have already cloned the repo run the following commands to get the project up and running:
 ```sh
-cd space-traveler
+cd covid-19-data-dsplay
 npm install
 npm start
 ```
 
-1. Next, you can start joining missions and booking rockets. All the changes will be automatically updated on your local server on http://localhost:8080/. You can stop your local server at any time hitting `<Ctrl> + C` on your keyboard.
-
-## Authors
+## Author
 
 👤 **Ihedoro Fortunatus O**
 
