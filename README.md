@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React capstone project - Metrics webapp (Covid-19 STATS)
 
-## Available Scripts
+- This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-In the project directory, you can run:
+- I chose an API that provides numeric data about a Covid-19 Stats because it is currently a global concern .
+  
+- The webapp have several pages:
+one page with a list of items that could be filtered by some parameters; like  country name. 
+one page for the item details; the detail page of country case break down.
 
-### `npm start`
+![Screenshot](src/assets/images/Case-breakdown.png)
+![Screenshot](src/assets/images/full-page.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Loom Video]:https://www.loom.com/share/711ff3c9b8364f81abb8e29975b837f2
 
-### `npm test`
+![live link]:https://condescending-hawking-9179d0.netlify.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- JSX, CSS,Tailwind CSS, JavaScript, React, react-router-dom, react-redux;
+- Visual Studio, Git, & GitHub;
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+git@github.com:fortuneonyeka/covid-19-data-dsplay.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
+```sh
+cd covid-19-data-dsplay
+npm install
+npm start
+```
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Ihedoro Fortunatus O**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@fortuneonyeka](https://github.com/fortuneonyeka)
+- Twitter: [@onyekafortune](https://twitter.com/onyekafortune)
+- LinkedIn: [Ihedoro Fortunatus](https://www.linkedin.com/in/fortunatus-ihedoro/)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Acknowledgments
+- Original project design idea by [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio) 🙌
+- Hat tip to anyone whose code was used 🔰
+- Inspiration 💘
+- Microverse program ⚡
+- Our standup team 🏹
+- Family's support 🙌
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
